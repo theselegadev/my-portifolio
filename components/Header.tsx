@@ -5,6 +5,7 @@ const Header = () => {
         <nav>
             <ul className="flex gap-4">
                 <li className="text-xl hover:text-gray-800"><a href="#home">Inicio</a></li>
+                <li className="text-xl hover:text-gray-800"><a href="#about">Sobre</a></li>
                 <li className="text-xl hover:text-gray-800"><a href="#projects">Projetos</a></li>
                 <li className="text-xl hover:text-gray-800"><a href="#contact">Contato</a></li>
             </ul>
