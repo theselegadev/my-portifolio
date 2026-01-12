@@ -18,7 +18,7 @@ const CardProjects = ({
   demoUrl
 }: CardProjectsProps) => {
   return (
-    <div className="group relative bg-white rounded-xl overflow-hidden shadow-lg z-11 hover:shadow-2xl transition-all duration-300 border border-gray-100 w-full h-[550px]">
+    <div className="group relative bg-white rounded-xl overflow-hidden shadow-lg z-11 hover:shadow-2xl transition-all duration-300 border border-gray-100 w-full md:w-[430px] h-[550px]">
       {/* Imagem do Projeto */}
       <div className="relative h-64 overflow-hidden bg-gray-200">
         <img  
@@ -34,7 +34,7 @@ const CardProjects = ({
           {title}
         </h3>
         
-        <p className="text-gray-600 text-sm mb-4 line-clamp-3 w-94">
+        <p className="text-gray-600 text-sm mb-4 md:w-94">
           {description}
         </p>
 
