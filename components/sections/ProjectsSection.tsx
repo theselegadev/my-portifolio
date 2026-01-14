@@ -20,7 +20,7 @@ const ProjectsSection = () => {
             title: "Solidarize",
             description: "Solidarize é um protótipo web para conectar ongs com voluntários e doadores com base em objetivos, desenvolvi como TCC do curso técnico de desenvolvimento de sistemas.",
             image: "",
-            technologies: ["HTML", "Javascript", "CSS", "PHP", "MySQL","Bootstrap"],
+            technologies: ["HTML", "Javascript", "CSS", "PHP", "MySQL","Bootstrap","REST API"],
             githubUrl: "#",
             demoUrl: "#"
         },
@@ -28,7 +28,7 @@ const ProjectsSection = () => {
             title: "SeuZé.IA",
             description: "SeuZé.IA é um agente de IA para agendamento para barbearias via Whatsapp, o projeto conta um agente de IA que interage com clientes e agenda horários e um painel de gerenciamento para os barbeiros. EM DESENVOLVIMENTO.",
             image: "",
-            technologies: ["React","Javascript","Bootstrap","Node.js","Fastify","Typescript","OpenAI API","MySQL"],
+            technologies: ["React","Javascript","Bootstrap","Node.js","Fastify","Typescript","OpenAI API","MySQL","REST API"],
             githubUrl: "#",
             demoUrl: "#"
         }
