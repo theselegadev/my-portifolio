@@ -1,8 +1,13 @@
+"use client"
+
 import { FlickeringGrid } from "../ui/flickering-grid"
 import Image from "next/image"
 import img from '../../public/lampada-pixelart.png'
+import { useState } from "react"
 
 const AboutSection = () => {
+  const [isHovered, setIsHovered] = useState(false)
+
   return (
     <section className="min-h-screen w-screen flex flex-col items-center justify-center relative gap-8 sm:gap-10 px-4 sm:px-8 py-16 sm:py-20 overflow-hidden">
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 text-center z-10">Sobre Mim</h1>
@@ -28,14 +33,22 @@ const AboutSection = () => {
         </div>
         
         <div className="flex justify-center items-center w-full md:w-[35%] md:my-auto">
-          <Image 
-            src={img} 
-            alt="Lâmpada Pixel Art" 
-            width={300} 
-            height={300}
-            className="w-48 sm:w-64 lg:w-72 h-auto"
-            priority
-          />
+          <div 
+            className="relative group"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+            onClick={() => setIsHovered(!isHovered)}
+          >
+            <div className={`absolute inset-0 bg-yellow-300 rounded-full blur-2xl transition-opacity duration-500 scale-125 ${isHovered ? 'opacity-40' : 'opacity-0'}`}></div>
+            <Image 
+              src={img} 
+              alt="Lâmpada Pixel Art" 
+              width={300} 
+              height={300}
+              className={`w-48 sm:w-64 lg:w-72 h-auto relative transition-all duration-500 ease-out drop-shadow-lg ${isHovered ? 'scale-110 -rotate-3 drop-shadow-2xl' : ''}`}
+              priority
+            />
+          </div>
         </div>
       </article>
       
