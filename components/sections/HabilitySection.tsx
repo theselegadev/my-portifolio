@@ -27,7 +27,7 @@ const HabilitySection = () => {
           Habilidades
         </h1>
         <p className="text-medium sm:text-base lg:text-xl text-gray-700 leading-relaxed lg:leading-relaxed">
-          Aqui estão algumas das tecnologias e ferramentas que utilizo no meu dia a dia como desenvolvedor fullstack. Atuo com o desenvolvimento de aplicações web, REST APIs e integração com modelos de IA. Com experiência em desenvolvimento de interfaces visuais intuitivas e back-ends com autenticação segura e performance eficiente.
+          Algumas das tecnologias e ferramentas que utilizo no meu dia a dia como desenvolvedor fullstack. Atuo com o desenvolvimento de aplicações web, REST APIs e aprendendo a integrar com modelos de IA. Com experiência em desenvolvimento de interfaces visuais intuitivas e back-ends com autenticação segura e performance eficiente.
         </p>
       </div>
 
@@ -43,7 +43,7 @@ const HabilitySection = () => {
                 height="55"
                 alt="skill-icon"
                 src={skill}
-                className="w-10 sm:w-12 lg:w-16 h-10 sm:h-12 lg:h-16 object-contain transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3"
+                className="w-12 h-12 sm:w-12 lg:w-16 h-10 sm:h-12 lg:h-16 object-contain transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3"
               />
             </div>
           ))}

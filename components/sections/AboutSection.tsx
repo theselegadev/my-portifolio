@@ -15,19 +15,19 @@ const AboutSection = () => {
       <article className="w-full max-w-7xl flex flex-col lg:flex-row items-start justify-between gap-6 sm:gap-8 lg:gap-16 z-10">
         
         <div className="flex flex-col justify-start items-start w-full lg:w-[65%] px-2 sm:px-6 lg:px-0">
-          <p className="text-sm sm:text-base lg:text-lg text-gray-800 leading-relaxed mb-4 text-justify">
+          <p className="text-medium sm:text-base lg:text-lg text-gray-800 leading-relaxed mb-4 text-justify">
             Olá, sou o Matheus Seleghin, desenvolvedor full-stack apaixonado por tecnologia e movido pela curiosidade. Meu primeiro contato com programação foi em 2020, durante a pandemia, quando comecei a estudar lógica, portugol e pseudocódigo por pura curiosidade. Desde então, a vontade de entender como as coisas funcionam só cresceu.
           </p>
           
-          <p className="text-sm sm:text-base lg:text-lg text-gray-800 leading-relaxed mb-4 text-justify">
+          <p className="text-medium sm:text-base lg:text-lg text-gray-800 leading-relaxed mb-4 text-justify">
             Em 2023, comecei a estudar programação com foco em web, HTML, CSS e JavaScript. Mesmo muito jovem, me apaixonei pela área e via programação como hobby. Já em 2024, fazia mini games web com javascript para meus colegas de escola jogarem, ficava alegre ao criar algo que pudesse ser usado por outras pessoas.
           </p>
           
-          <p className="text-sm sm:text-base lg:text-lg text-gray-800 leading-relaxed mb-4 text-justify">
+          <p className="text-medium sm:text-base lg:text-lg text-gray-800 leading-relaxed mb-4 text-justify">
             Nesse mesmo ano comecei a fazer curso técnico em desenvolvimento de sistemas. No curso adquiri base sólida em desenvolvimento como modelagem de dados, banco de dados e programação orientada a objetos. Também abri um canal no youtube para compartilhar meus conhecimentos. No primeiro semestre de 2025, fui eleito aluno destaque da minha turma, uma conquista que me mostrou estar trilhando um bom caminho.
           </p>
           
-          <p className="text-sm sm:text-base lg:text-lg text-gray-800 leading-relaxed text-justify">
+          <p className="text-medium sm:text-base lg:text-lg text-gray-800 leading-relaxed text-justify">
             Atualmente, buscando oportunidades para aplicar meus conhecimentos em projetos que transformam pessoas. Estou animado com o futuro e as possibilidades que a tecnologia oferece para criar soluções que impactam positivamente a vida das pessoas.
           </p>
         </div>

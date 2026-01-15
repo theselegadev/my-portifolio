@@ -5,32 +5,35 @@ import { DotPattern } from "../ui/dot-pattern"
 import CardProjects from "../CardProjects"
 import { useState } from "react"
 import { ArrowRight,ArrowLeft } from "lucide-react"
+import ImagePoly from "../../public/poly.png"
+import ImageSeuZe from "../../public/SeuZe.png"
+import ImageSolidarize from "../../public/solidarize.png"
 
 const ProjectsSection = () => {
     const listProjects = [
         {
             title: "Poly",
             description: "Poly é um micro framework para games em c, contribui com o projeto desenvolvendo uma página de documentação interativa e download para aprendizado dos usuários.",
-            image: "",
+            image: ImagePoly,
             technologies: ["React", "Javascript", "Tailwind CSS"],
-            githubUrl: "#",
-            demoUrl: "#"
+            githubUrl: "https://github.com/theselegadev/lp-poly",
+            demoUrl: "https://theselegadev.github.io/lp-poly/"
         },
         {
             title: "Solidarize",
             description: "Solidarize é um protótipo web para conectar ongs com voluntários e doadores com base em objetivos, desenvolvi como TCC do curso técnico de desenvolvimento de sistemas.",
-            image: "",
+            image: ImageSolidarize,
             technologies: ["HTML", "Javascript", "CSS", "PHP", "MySQL","Bootstrap","REST API"],
-            githubUrl: "#",
-            demoUrl: "#"
+            githubUrl: "https://github.com/theselegadev/solidarize",
+            demoUrl: ""
         },
         {
             title: "SeuZé.IA",
             description: "SeuZé.IA é um agente de IA para agendamento para barbearias via Whatsapp, o projeto conta um agente de IA que interage com clientes e agenda horários e um painel de gerenciamento para os barbeiros. EM DESENVOLVIMENTO.",
-            image: "",
+            image: ImageSeuZe,
             technologies: ["React","Javascript","Bootstrap","Node.js","Fastify","Typescript","OpenAI API","MySQL","REST API"],
-            githubUrl: "#",
-            demoUrl: "#"
+            githubUrl: "https://github.com/theselegadev/agent-seu-ze",
+            demoUrl: ""
         }
     ]
 
