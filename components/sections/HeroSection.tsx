@@ -4,15 +4,15 @@ import { AnimatedGridPattern } from '../ui/animated-grid-pattern'
 
 const HeroSection = () => {
   return (
-    <section className="h-screen w-screen overflow-hidden relative">
+    <section className="h-screen w-screen overflow-hidden relative" id='home'>
         <article>
             <div className="relative top-30 md:top-50 z-10 flex flex-col items-center justify-center h-full text-center px-4">
-                <a href="https://github.com/theselegadev"><img src="https://github.com/theselegadev.png" alt="Foto de perfil" className="w-40 h-40 rounded-full shadow-lg mb-4 cursor-pointer" /></a>
+                <a href="https://github.com/theselegadev" target='_blank'><img src="https://github.com/theselegadev.png" alt="Foto de perfil" className="w-40 h-40 rounded-full shadow-lg mb-4 cursor-pointer" /></a>
                 <h1 className="text-4xl md:text-7xl font-bold mb-4">Bem-vindo ao Meu Portfólio</h1>
-                <p className="text-xl md:text-2xl mb-8">Descubra meus projetos e habilidades como dev fullstack.</p>
+                <p className="text-xl md:text-2xl mb-8">Matheus Seleghin desenvolvedor fullstack, veja meus projetos.</p>
                 <div className="flex gap-4">
                   <a href="#projects" className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Ver Projetos</a>
-                  <a href="https://github.com/theselegadev" className="px-6 py-3 bg-slate-900 text-white rounded-full hover:bg-gray-800">Baixar CV</a>
+                  <a href="/curriculo_matheus_seleghin.pdf" className="px-6 py-3 bg-slate-900 text-white rounded-full hover:bg-gray-800" download>Baixar CV</a>
                 </div>
             </div>
         </article>

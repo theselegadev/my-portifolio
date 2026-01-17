@@ -6,6 +6,9 @@
 body{
   overflow-x: hidden;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 @theme inline {
   --animate-shine: shine var(--duration) infinite linear;

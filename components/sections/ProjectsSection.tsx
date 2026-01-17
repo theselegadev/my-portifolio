@@ -39,7 +39,7 @@ const ProjectsSection = () => {
 
     const [projectsVisible, setProjectsVisible] = useState<number>(0);
   return (
-    <section className="bg-background h-screen w-screen overflow-hidden relative flex flex-col items-center justify-center">
+    <section className="bg-background h-screen w-screen overflow-hidden relative flex flex-col items-center justify-center" id="projects">
         <CardProjects image={listProjects[projectsVisible].image} title={listProjects[projectsVisible].title} description={listProjects[projectsVisible].description} technologies={listProjects[projectsVisible].technologies} githubUrl={listProjects[projectsVisible].githubUrl} demoUrl={listProjects[projectsVisible].demoUrl}/>
         <div className="md:absolute md:bottom-4 md:left-1/2 md:transform md:-translate-x-1/2 flex gap-4 mt-4">
             <button className="cursor-pointer" onClick={() => setProjectsVisible((prev) => (prev - 1 + listProjects.length) % listProjects.length)}>

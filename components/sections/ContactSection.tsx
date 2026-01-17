@@ -39,7 +39,7 @@ const ContactSection = () => {
   ]
 
   return (
-    <section className="min-h-screen w-screen relative flex flex-col items-center justify-center px-4 py-16 gap-12 overflow-hidden">
+    <section className="min-h-screen w-screen relative flex flex-col items-center justify-center px-4 py-16 gap-12 overflow-hidden" id="contact">
       <div className="z-10 text-center">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
           Vamos Trabalhar Juntos?

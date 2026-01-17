@@ -95,7 +95,7 @@ const CardProjects = ({
               <span>Ver</span>
             </a>)}
             {!demoUrl && (
-              <button onClick={()=>setShowProject(true)} className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium text-sm"><ExternalLink size={18} />
+              <button onClick={()=>setShowProject(true)} className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium text-sm cursor-pointer"><ExternalLink size={18} />
               <span>Saiba mais</span></button>
             )}
           </div>
