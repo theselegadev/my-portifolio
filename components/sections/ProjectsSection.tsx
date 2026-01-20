@@ -17,7 +17,7 @@ const ProjectsSection = () => {
             image: ImagePoly,
             technologies: ["React", "Javascript", "Tailwind CSS"],
             githubUrl: "https://github.com/theselegadev/lp-poly",
-            demoUrl: "https://theselegadev.github.io/lp-poly/"
+            demoUrl: "https://lp-poly.vercel.app/"
         },
         {
             title: "Solidarize",

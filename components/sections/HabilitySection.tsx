@@ -13,11 +13,11 @@ const HabilitySection = () => {
     "https://github.com/user-attachments/assets/a2b76bf8-b908-4270-b5a5-50a49d1925a9",
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-plain.svg",
     "https://github.com/user-attachments/assets/561b61b9-2d3b-4901-a602-67e1b6ef3bbe",
+    "https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/TailwindCSS-Dark.svg",
     "https://github.com/user-attachments/assets/58ac1fdd-27a3-448a-ae1c-a6bac56906f0",
     "https://github.com/user-attachments/assets/e14dc8a8-59c3-48a3-aef6-5fd3fa19f2f0",
     "https://github.com/user-attachments/assets/a9dc3a29-3ce8-4371-8691-37cdecb5ebc1",
-    "https://github.com/user-attachments/assets/e6e6976e-d659-423c-a6b8-848fbb26c01e",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg",
+    "https://github.com/user-attachments/assets/e6e6976e-d659-423c-a6b8-848fbb26c01e"
   ]
     
   return (
